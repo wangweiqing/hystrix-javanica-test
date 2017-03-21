@@ -1,3 +1,4 @@
-WARN  2016-07-12 14:35:47.281 (1414097965@qtp-1776186092-0:org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1136)) No mapping found for HTTP request with URI [/hystrix-javanica-test/] in DispatcherServlet with name 'dispatcherServlet'
-WARN  2016-07-12 14:37:41.976 (1592010632@qtp-620708359-0:com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)) No URLs will be polled as dynamic configuration sources.
-WARN  2016-07-12 14:43:35.483 (2144817630@qtp-1180105925-0:com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)) No URLs will be polled as dynamic configuration sources.
+WARN  2016-07-22 18:38:17.738 (943444776@qtp-743301333-0:com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)) No URLs will be polled as dynamic configuration sources.
+WARN  2016-07-22 18:41:19.003 (1941390869@qtp-1150464915-0:com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)) No URLs will be polled as dynamic configuration sources.
+WARN  2016-07-22 18:45:27.190 (767394746@qtp-180844693-0:com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)) No URLs will be polled as dynamic configuration sources.
+WARN  2016-07-22 18:54:44.325 (2053887137@qtp-1401538319-0:com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122)) No URLs will be polled as dynamic configuration sources.

@@ -1,5 +1,6 @@
 package com.wwq.hystrixtest.service.impl;
 
+import com.netflix.hystrix.strategy.concurrency.HystrixRequestContext;
 import com.wwq.hystrixtest.client.AClient;
 import com.wwq.hystrixtest.service.AService;
 
@@ -23,7 +24,7 @@ public class AServiceImpl implements AService {
 
     @Override
     public String getTest() {
-        LOGGER.info("Hystrix test start!");
+        LOGGER.info("Hystrix test start!" + HystrixRequestContext.getContextForCurrentThread());
         return aClient.getTest(1);
     }
 }
